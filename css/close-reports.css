@@ -1,0 +1,1273 @@
+/*
+    Report table style.
+*/
+.report-table-header-item {
+    color: #000;
+    font-family: 'SFPRO';
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 0;
+    line-height: 1.18;
+}
+
+.select-channel {
+    color      : #000;
+    font-size  : 15px;
+    font-weight: 600;
+    font-family: 'SFPRO';
+
+    width      : auto;
+    height: 44px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    border-radius: 12px;
+    border: solid 1px #c6cbd4;
+    border-bottom: 0;
+    box-shadow: inset 0 -1px 0 0 #e2e8ec;
+    outline   : none;
+}
+
+.lead_generation_metrics_report td {
+    border: 0;
+    border-bottom: 1px solid #e2e8ec;
+    color: rgba(0, 0, 0, 0.72);
+    font-family: 'SFPro';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    height: 100px !important;
+    vertical-align: middle;
+    padding-left: 10px;
+    text-align: center;
+}
+.lead_generation_metrics_report td span{
+    display: block;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.lead-generation-table-row {
+    border-bottom: solid 1px #d5dee3;
+}
+
+.report-table {
+    border-width : 1px;
+    border-radius: 28px;
+}
+
+.report-table td {
+    font-size     : 20px;
+    padding       : 0px;
+}
+
+.report-table-lead {
+    box-shadow: 0 3px 6px 0 rgba(104, 109, 125, 0.2);
+    border-radius: 12px;
+    border: solid 1px #d5dee3;
+    border-collapse: initial;
+}
+
+table.report-table-container tbody>tr:nth-child(odd)>td,
+table.report-table-container tbody>tr:nth-child(odd)>th {
+    background-color: #ffffff;
+}
+
+table.report-table-lead tbody>tr:nth-child(odd)>th {
+    background-color: inherit;
+    text-align: center;
+}
+table.report-table-lead tbody>tr:nth-child(odd)>th span {
+    text-align: left;
+    display: inline-block;
+}
+
+.report-table-header .report-table-header-first-item {
+    padding-right: 100px;
+    border-top-left-radius: 12px;
+}
+
+.report-table-header .report-table-header-last-item {
+    /* border-bottom-right-radius: 12px; */
+    border-top-right-radius: 12px;
+}
+
+.report-table-header {
+    background-color: #fafbfc;
+    /* border-radius: 12px;
+    border: solid 1px #d5dee3; */
+}
+
+table tbody>tr>td,
+table tbody>tr>th {
+    font-weight: 500;
+}
+
+.report-table tr:last-child td:first-child {
+    border-bottom-left-radius: 28px 28px;
+}
+
+
+/*
+    Report general information style.
+*/
+
+.report-general-information_item {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    padding         : 24px;
+    border: solid 1px #e0e0e0;
+    width: 16.6%;
+}
+
+.report-general-information_first_item {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.report-general-information_last_item {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*!report__wrapper*/
+.report__wrapper {
+    margin   : 0 auto;
+}
+
+.circular-std {
+    font-family: 'Roboto';
+}
+
+/*!Report Filter*/
+.report__filter {
+    padding         : 64px 20px 20px;
+    border-right    : 1px solid #d5d6dc;
+}
+
+.report__filter .reset {
+    text-decoration: underline;
+    font-weight    : 500;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.reset-scale,
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 30px;;
+    width: 50%;
+    margin-right: 8px;
+    padding: 10px 0;
+    border-radius: 12px;
+    background-color: #f1f5f7;
+}
+
+.btn-apply_report_filter_pipeline_overview_report.btn-apply[type=submit] {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.report_submit_buttons_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+#report_filter_pipeline_overview_report .report_submit_buttons_container {
+    margin-top: .5rem;
+}
+
+.h-hand {
+    cursor: pointer;
+}
+
+/* Apply Btn */
+.btn-apply[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 12px;
+    background-color: #2397e8;
+    text-decoration: none;
+    border: 0;
+    width: 50%;
+    margin-left: 8px;
+}
+
+.btn-apply[type=submit]:focus,
+.btn-apply[type=submit]:hover {
+    background-color: #2397e8;
+}
+
+.btn-apply:focus {
+    outline   : none !important;
+    box-shadow: none !important;
+}
+
+.btn-apply-sales {
+    border-radius   : 12px;
+    background-color: #2397e8;
+    text-transform  : uppercase;
+    text-decoration : none;
+    color           : #fff;
+    border          : 0;
+
+    padding         : 0px 5px 0px 5px;
+}
+
+.sales_process_metrics_report .btn-remove-column,
+.sales_process_metrics_report .btn-remove-column[type=button]:focus,
+.sales_process_metrics_report .btn-remove-column[type=button]:hover {
+    position: absolute;
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    left: 53px;
+    border: 0;
+    top: 20px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.btn-apply-sales {
+    margin: 0px 13px 8px 40px;
+}
+
+.sales_process_metrics_report .report-table {
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 20px;
+    font-family: 'SFPro';
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.report-table .sales_process_item_label {
+    padding: 20px 20px 20px 84px;
+}
+
+.report-table .sales_process_item_value {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cycle_company_in_months_values {
+    width: auto;
+}
+
+.cycle_company_in_months_display {
+    color: #ffffff;
+    background-color: #12b8ca;
+    border-radius: 50%;
+    padding: 8px 16px;
+    margin: 0 16px;
+}
+.cycle_company_in_months_label {
+    color: #12b8ca;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-apply-sales:focus {
+    outline   : none !important;
+    box-shadow: none !important;
+}
+
+.btn-new-column[type=button],
+.btn-new-column[type=button]:hover,
+.btn-new-column[type=button]:focus {
+    font-weight     : 500;
+    font-family: SFPro;
+    font-size: 17px;
+    margin-left: 12px;
+    background-color: #12b8ca;
+    text-decoration: none;
+    color: #000000;
+    border: 0;
+    padding: 0;
+    background-color: #ffffff;
+    line-height: 1.41;
+}
+
+.btn_new_column_container {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn_new_column_label {
+    font-size: 30px;
+    background: #0fb8ca;
+    color: #ffffff;
+    padding-top: 2px;
+    line-height: 11px;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+
+.btn-new-column[type=button]:hover,
+.btn-new-column[type=button]:focus {
+    outline   : none;
+    box-shadow: none;
+}
+
+.text-collapse {
+    margin-top   : 30px;
+    margin-bottom: 12px;
+    font-size    : 16px;
+    font-weight  : bold;
+    color        : #000000;
+}
+
+.toggle-sign {
+    font-size  : 22px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.select-input {
+    width           : 180px;
+    height          : 30px;
+    padding         : 2px 3px;
+    border          : solid 1px #cccdd2;
+    background-color: #ffffff;
+    font-size       : 14px;
+    font-weight     : 500;
+    color: #000;
+    margin:5px 0;
+}
+
+.select-input:focus {
+    outline   : none;
+    box-shadow: none;
+}
+
+.cycle_company_in_months_values {
+    background: url(../assets/dropdown-black.png) right center no-repeat #fff;
+    background-position-x: 95%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select-input-scale,
+#report_filter_sales_process_metrics_report .datepicker_lead_generation_metrics_report,
+.cycle_company_in_months_values {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: SFPro;
+    color: #000000;
+    line-height: 1.5;
+    width: 270px;
+    height: auto;
+    padding: 9px 16px;
+    border: solid 1px #c6cbd4;
+    border-radius: 12px;
+}
+
+.select-input-scale:focus,
+.cycle_company_in_months_values:focus {
+    outline   : none;
+    box-shadow: none;
+}
+
+.written-outreach {
+    margin-top: 8px;
+    padding: 14px 20px;
+    border-radius: 26px;
+    border: solid 2px #cccdd2;
+    background-color: #ffffff;
+}
+
+.written-outreach:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.written-outreach-sales {
+    width: 230px;
+    padding: 5px 8px;
+    font-size: 15px;
+    font-weight: 500;
+    border: solid 1px #cccdd2;
+    background-color: #ffffff;
+}
+
+.written-outreach-sales:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+[data-toggle="collapse"].collapsed .icon:before {
+    content: "+";
+}
+
+[data-toggle="collapse"] .icon:before {
+    content: "-";
+}
+
+/*!Report Table*/
+.report__table {
+    background-color: #feffff !important;
+    max-width: 100%;
+    margin-top: 36px;
+}
+
+.report-general-information_item_header {
+    color: #000;
+    margin-bottom: 44px;
+    font-family: 'SFPro';
+    font-weight: normal;
+    line-height: 1.38;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.report-general-information_item_value {
+    margin-top : 12px;
+    padding    : 12px 0;
+    font-family: 'SFProRounded';
+    font-size  : 32px;
+    margin-top: 0;
+    padding   : 0;
+    font-weight: normal;
+    line-height: 1.38;  
+}
+
+.report-general-information {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.text-green {
+    color: #2dc256;
+}
+
+.text-light-blue {
+    color: #12b8ca;
+}
+
+.text-blue {
+    color: #2397e8;
+}
+
+.text-purple {
+    color: #714fd7;
+}
+
+
+/*! Header*/
+.header {
+    box-shadow: 0 1px 0 0 rgba(174, 174, 186, 0.5);
+    height       : 88px;
+    width        : 100%;
+    position     : absolute;
+    top          : 0;
+    left         : 0;
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
+.tab-content-container {
+    margin-top: 88px;
+}
+
+.label-collapse {
+    line-height: 1.5;
+    font-size  : 15px;
+}
+
+.header-logo-img {
+    width : 230px;
+    height: auto;
+}
+
+.avatar-name {
+    width           : 48px;
+    height          : 48px;
+    background-color: #12b8ca;
+    border-radius   : 24px;
+    color           : #fff;
+}
+
+.title-header {
+    font-family: 'Roboto';
+    font-size  : 40px;
+    font-weight: 600;
+    padding    : 43px 0px 0px 64px;
+}
+
+.nav-link-lead {
+    font-family    : 'Roboto';
+    font-weight    : 500;
+    line-height    : 1.4;
+    color          : black;
+    text-decoration: none;
+    font-size      : 20px;
+}
+
+.nav-link-lead:hover {
+    color        : #2f9de9;
+}
+
+.nav-link-lead.active {
+    color        : #2f9de9;
+}
+
+/*! Filter Box*/
+.closebtn {
+    font-weight : 800;
+    padding-left: 10px;
+    color       : #2b3450;
+    font-weight : bold;
+    float       : right;
+    font-size   : 18px;
+    cursor      : pointer;
+    position    : relative;
+    top         : -2px;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+.filter-chips-container {
+    text-align: left;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 10px;
+}
+
+.filter-chip {
+    position        : relative;
+    font-family: 'SFPro';
+    display: inline-block;
+    padding: 5px 8px 0px 13px;
+    background-color: #fafbfc;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 4px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px 0 rgb(104 109 125 / 20%);
+}
+
+/** Pipeline*/
+
+
+.pipeline-nav {
+    background-color: #fafbfc;
+    box-shadow: inset -1px 0 0 0 #d5d6dc;
+    padding: 48px 64px;
+}
+
+.sans-serif {
+    font-family: 'sans-serif' !important;
+}
+
+.company-list {
+    flex-wrap: wrap;
+    padding-top: 34px;
+    padding-bottom: 48px;
+}
+
+.flex-width {
+    flex: 1 1 0px
+}
+
+.odd-row {
+    background-color: #a3a7af;
+}
+
+.company-label {
+    font-size  : 20px;
+    padding    : 6px 17px;
+    flex       : 0 0 33%;
+    line-height: 1.2;
+    font-family: 'SFPro';
+    color: rgba(0, 0, 0, 0.72);
+}
+
+input[type=text].search-filter {
+    font-size: 18px;
+    border: 0;
+    color: #9095ad;
+    background-color: #feffff;
+    height: 20px;
+    background: url(../assets/search.png) right center no-repeat #fff;
+    background-position-x: 0%;
+    margin-left: 41px;
+    padding-left: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 75%;
+}
+
+.search-filter::placeholder {
+    color: #9095ad;
+}
+
+.search-filter:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.company-count {
+    background-color: #edeef5;
+    color: #000000;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-family: 'SFPro';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.company-count:hover {
+    background-color: #000000;
+    color           : #ffffff;
+}
+
+.company-count:hover {
+    background-color: #000000;
+    color           : #ffffff;
+}
+
+.pipeline-nav-link {
+    font-family: 'SFPro';
+    font-size: 17px;
+    font-weight: 500;
+    padding  : 16px 0;
+    color    : #000000;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.pipeline-nav-link:hover {
+    color: #0fb8ca;
+}
+
+.pipeline-nav-link.active {
+    color: #0fb8ca;
+}
+
+.pipeline-nav-link:hover .company-count {
+    background-color: #0fb8ca;
+    color           : #ffffff;
+    font-family: 'SFPro';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+}
+
+/* !login-error*/
+.login-error-container {
+    padding-top   : 200px;
+}
+
+.login-error-label {
+    text-decoration : none;
+    border          : 2px solid #6401b1;
+    background-color: #6401b1;
+    color           : #EAEBDE;
+    padding         : 11px 38px;
+    border-radius   : 500px;
+    font-size       : 25px;
+    font-weight     : 700;
+}
+
+.login-error-label:hover {
+    text-decoration : none;
+    background-color: #EAEBDE;
+    color           : #6401b1;
+}
+
+.avatar-container,
+.avatar-container:hover {
+    text-decoration: none;
+    color          : black;
+}
+
+/* ------------------------------------------------------------------
+Preloader
+------------------------------------------------------------------- */
+
+.page-loader {
+    position  : fixed;
+    background: #000;
+    bottom    : 0;
+    right     : 0;
+    left      : 0;
+    top       : 0;
+    z-index   : 9998;
+    opacity   : 0.6;
+}
+
+.loader {
+    position         : absolute;
+    border-left      : 2px solid #ffffff;
+    border-top       : 2px solid rgba(255, 255, 255, 0.2);
+    border-right     : 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom    : 2px solid rgba(255, 255, 255, 0.2);
+    height           : 60px;
+    width            : 60px;
+    left             : 50%;
+    top              : 50%;
+    margin           : -23px 0 0 -23px;
+    text-indent      : -9999em;
+    font-size        : 10px;
+    z-index          : 9999;
+    -webkit-animation: load 0.8s infinite linear;
+    -moz-animation   : load 0.8s infinite linear;
+    ms-animation     : load 0.8s infinite linear;
+    o-animation      : load 0.8s infinite linear;
+    animation        : load 0.8s infinite linear;
+}
+
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width        : 60px;
+    height       : 60px;
+}
+
+@-webkit-keyframes load {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+@keyframes load {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+.max-loader {
+    border-radius    : 50%;
+    width            : 60px;
+    height           : 60px;
+    position         : absolute;
+    border-left      : 5px solid #FFF;
+    border-top       : 5px solid rgba(255, 255, 255, 0.2);
+    border-right     : 5px solid rgba(255, 255, 255, 0.2);
+    border-bottom    : 5px solid rgba(255, 255, 255, 0.2);
+    height           : 60px;
+    width            : 60px;
+    left             : 50%;
+    top              : 50%;
+    margin           : -23px 0 0 -23px;
+    text-indent      : -9999em;
+    font-size        : 10px;
+    z-index          : 9999;
+    -webkit-animation: load 0.8s infinite linear;
+    -moz-animation   : load 0.8s infinite linear;
+    ms-animation     : load 0.8s infinite linear;
+    o-animation      : load 0.8s infinite linear;
+    animation        : load 0.8s infinite linear;
+}
+
+.max-loader:after {
+    border-radius: 50%;
+    width        : 60px;
+    height       : 60px;
+}
+
+.width-7 {
+    width: 14.2% !important;
+}
+
+.sub-filter-label {
+    font-size: 14px;
+}
+
+/* daterangepicker */
+
+.daterangepicker .drp-calendar  {
+    max-width: fit-content;
+}
+
+.header-welcome-text {
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-welcome-text .user-name {
+    font-family: 'SFPro';
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: right;
+    color: #0a0a0a;
+}
+
+.header-welcome-text .user-email {
+    opacity: 0.64;
+    font-family: 'SFPro';
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: right;
+    color: #000000;
+}
+
+.lead_generation_metrics_container {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.lead_generation_metrics_container .sub-filters-container {
+    margin-top: 40px;
+}
+
+.datepicker_lead_generation_metrics_report, .datepicker_lead_generation_metrics_report_lead, .datepicker_lead_generation_metrics_report_leadtab  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    background: #fff;
+    cursor: pointer;
+    padding: 9px 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 12px;
+    border: solid 1px #e0e0e0;
+    position: relative;
+}
+
+.lead_generation_metrics_report_filters {
+    margin-bottom: 32px;
+}
+
+.filters {
+    position: relative;
+}
+
+input[type=text].datepicker_lead_generation_metrics_report_input, 
+input[type=text].datepicker, input[type=text].datepicker_lead_generation_metrics_report_lead_input, input[type=text].datepicker_lead_generation_metrics_report_leadtab_input {
+    border: none;
+    padding: 0;
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #000000;
+    background-color: transparent;
+    z-index: 999;
+    cursor: pointer;
+    padding-right: 24px;
+}
+
+table.report-table-container tbody tr:hover>td,
+tablereport-table-container tbody tr:hover>th {
+    background-color: inherit;
+}
+
+.datepicker_lead_generation_metrics_report_text {
+    margin-right: 32px;
+    font-family: 'SFPro';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.41;
+    color: #000000;
+}
+.datepicker_lead_generation_metrics_report_label {
+    font-family: 'SFPro';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: #000000;
+    padding-left: 6px;
+    display: inline-block;
+    padding-right: 32px;
+}
+
+.datepicker_icon {
+    background: url(../assets/calendar.png);
+    width: 18px;
+    height: 16px;
+    display: block;
+    padding-right: 16px;
+    background-repeat: no-repeat;
+    right: 18px;
+    position:absolute;
+}
+
+#report_filter_pipeline_overview_report {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    box-shadow: 0 1px 0 0 rgb(174 174 186 / 50%);
+}
+
+/* #report_filter_pipeline_overview_report .form-group {
+    margin-right: 8px !important;
+} */
+
+#report_filter_pipeline_overview_report .select-input-scale {
+    width: 265px;
+    padding-right: 0px;
+}
+
+#datepicker_pipeline_overview_report {
+    width: 260px;
+}
+
+.bootstrap-select .dropdown-menu ul li .active {
+    border-radius: 9px;
+    background-color: #e8f5ff;
+}
+.bootstrap-select .dropdown-menu ul li:hover {
+    border-radius: 9px;
+    background-color: #f1f5f7;
+}
+
+li:focus, 
+li:checked
+{
+    background-color: transparent !important;
+}
+
+.dropdown-item span.text {
+    font-family: 'SFPro';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.bootstrap-select div.dropdown-menu {
+    padding: 3px;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 7%) !important;
+    border: solid 1px #c4c9d2 !important;
+}
+.bootstrap-select .btn,
+.bootstrap-select .btn:active,
+.bootstrap-select .btn:hover,
+.bootstrap-select .btn:focus {
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: solid 1px #c6cbd4 !important;
+    background-color: #ffffff;
+    outline: none !important;
+}
+.bootstrap-select .btn::after{
+    color: #a6aabc;
+    margin-left: 14px;
+}
+.bootstrap-select .btn .filter-option-inner-inner {
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.18;
+    color: #000000;
+}
+.bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
+.bootstrap-select .btn-light:not(:disabled):not(.disabled):active,
+.bootstrap-select.show .btn-light.dropdown-toggle {
+    background-color: transparent;
+    border: solid 1px #2397e8;
+}
+.select-input-scale .btn .filter-option-inner-inner {
+    font-weight: normal !important;
+    white-space: break-spaces;
+}
+.remove-icon{
+    background: url(../assets/remove.png) right center no-repeat #fff;
+    background-position-x: 95%;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    border: 0;
+    top: 20px;
+}
+
+.btn-apply{
+    display: none !important;
+}
+#datepicker_sales_process_metrics_report{
+    width: 100%;
+}
+
+.bootstrap-select .dropdown-item.active:after {
+    content: " ";
+    position: absolute;
+    right: 8px;
+    width: 5px;
+    height: 5px;
+    background-color: #2f9de9;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+}
+
+#ui-datepicker-div {
+    z-index: 9999 !important;
+}
+
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+    padding: 6px;
+    border-radius: 0 !important;
+}
+
+.company-label-tab {
+    text-align: left;
+}
+select#campaigns-filter {
+    border: solid 1px #e0e0e0;
+    border-radius: 12px;
+    font-family: 'SFPro'!important;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    cursor: pointer;
+    height: 43px;
+}
+.campaigns-filter {
+    padding-right: 20px;
+}
+
+/* Qualified Leads Tab  */
+
+.qualified-count {
+    position: absolute;
+    top: 131px;
+    left: 310px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    cursor: pointer;
+    padding: 9px 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 12px;
+    border: solid 1px #e0e0e0;
+    width: 200px;
+}
+
+.qualified-count p{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.qualified-count span {
+    font-size: 18px;
+    color: #2f9de9;
+    font-weight: bold;
+}
+
+#qualified-leads .row {
+    position: relative;
+}
+
+.qualified-tab-title {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Qualified Leads */
+
+#qualified-leads .sub-filters  {
+    padding: 50px 0px 30px 0px;
+}
+
+#qualified-leads .row {
+    display: flex;
+    flex-direction: column;
+}
+
+#qualified-leads table {
+    box-shadow: 0 3px 6px 0 rgb(104 109 125 / 20%);
+    border-radius: 12px;
+    border: solid 1px #d5dee3;
+    border-collapse: initial;
+    border-radius: 20px;
+
+}
+
+#qualified-leads table {
+    box-shadow: 0 3px 6px 0 rgb(104 109 125 / 20%);
+    border-radius: 12px;
+    border: solid 1px #d5dee3;
+    border-collapse: initial;
+}
+
+#qualified-leads table thead td{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border:none!important;
+    height: 100px!important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#qualified-leads table thead tr{
+    background-color: #fafbfc;
+}
+
+#qualified-leads table tbody td{
+    border: 0;
+    border-bottom: 1px solid #e2e8ec;
+    color: rgba(0, 0, 0, 0.72);
+    font-family: 'SFPro';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2;
+    height: 100px !important;
+    vertical-align: middle;
+    padding-left: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.qualified_leads_wrapper table tbody td a {
+    color: #7853E4!important;
+}
+
+@media screen and (max-width: 1600px) {
+    .nav-link-lead {
+        font-size: 15px;
+    }
+}
+
+
+#pipeline-overview {
+    padding: 50px 0px;
+}
+
+#pipeline-overview .report_submit_buttons_container {
+    width: 100%;
+}
+
+#pipeline-overview .pipeline_overview_container {
+    display: flex;
+}
+
+#pipeline-overview #report_filter_pipeline_overview_report {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 64px;
+}
+
+@media screen and (max-width: 1600px) {
+    #pipeline-overview #report_filter_pipeline_overview_report {
+        padding: 48px 25px;
+    }  
+    .pipeline-nav {
+        padding: 48px 25px;
+    } 
+}
+
+#pipeline-overview .form-group {
+    margin-right: 0px!important;
+    margin-bottom: 10px!important;    
+}
+
+#datepicker_pipeline_overview_report {
+    width: 265px;
+}
+
+#qualified-leads .quick-filters {
+    padding-bottom: 30px;
+}
+
+ .quick-filter-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    background: #fff;
+    cursor: pointer;
+    padding: 9px 30px;
+    border: 1px solid #ccc;
+    width: fit-content;
+    border-radius: 12px;
+    border: solid 1px #e0e0e0;
+    position: relative;
+    margin-right: 20px;
+}
+
+#qualified-leads .quick-filter-box a {
+    border: none;
+    padding: 0;
+    font-family: SFPro;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #000000;
+    background-color: transparent;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#qualified-leads .quick-filter-box a:hover {
+    text-decoration: none;
+}
+
+.quick-filter-box.active {
+    background: #2f9de9;
+    color: white;
+}
+.quick-filter-box.active a {
+    color: white !important;
+}
+.hidden{
+    display: none;
+}
+select#qualified-leads-campaign{
+    border-radius: 12px;
+    border: solid 1px #e0e0e0;
+    width: 280px;
+    margin-bottom: 30px;
+}
+#pipeline-overview #report_filter_pipeline_overview_report{
+    justify-content: flex-start;
+}

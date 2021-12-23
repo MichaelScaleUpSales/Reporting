@@ -1,2 +1,1 @@
-# Reporting
-ScaleUpSales Reporting Dashboard code
+# close_reports
